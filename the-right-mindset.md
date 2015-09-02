@@ -1,11 +1,11 @@
-1.Growth mindset: intelligence can be developed, learns from criticism, they process the error and engage deeply. they learn from it and correct it. thrives on a challenge, stretching our abilities, high levels of achievement. "Growth Mindset is the idea that we can grow our brain's capacity to learn and to solve problems."
+Dr. Carol Dweck says, "Most people are held back not by their innate ability, but by their mindset." This state caught my attention, and made me want to read more. The growth mindset is what everyone should aim for to reach their goals. People with this mindset aren't afraid of a challenge or stretching their abilities. It is the idea that we can grow our brain's capacity to learn and to solve problems. The growth mindset allows a person to learn from criticism and correct it. On the other hand, a fixed mindset avoids challenges and runs from error. They ignore useful negative feedback and avoid failure. The big difference between these two mindsets is that one will have high levels of achievement while the other will achieve less than their full potential.
 
-push out of your comfort zone to learn something new and different, the neurons in the brain can form new, stronger connections, and overtime can get smarter.
+I have experienced both mindsets in college. Sophomore year in college I completely changed my major just because of one class- chemistry. I was a nursing major but hated all of the chemistry classes and didn't care for them. So instead of accepting this challenge, I gave up, and changed my major. In the long run it all worked out because I really liked my new major, Architecutral Technology. This challenged me in ways I've never been challenged before. I was one of the only girls in my classes but it made me want to do better. I spent so many hours in the studio working on my designs, projects and drawings. In the end, I was recognized at the graduation ceremony and awarded as the "Outstanding Student."
 
-Fixed mindset: intelligence is static, avoids challenges, ignores useful negative feedback, they run from error and don't engage with it. achieves less than their full potential.
+I'm coming into this program with a growth mindset. I came here on my own time wanting to learn something way out of my comfort zone. This program will be very difficult, but I have an end goal and I know I can do it.
 
-2.Fixed mindset- Architecture critiques and getting feedback on my designs. was so wrapped up in my ideas I didn't want to change them or take the advice from some of my professors. growth mindset- doing this program. i'm challenging myself and putting myself in a new environment and situation with no previous experience to become better and invest in myself.
 
-3.I came here on my own wanting to learn more. I am challenging myself and stretching my abilities.
+
 
 http://www.brainpickings.org/2014/01/29/carol-dweck-mindset/
+https://www.khanacademy.org/youcanlearnanything
