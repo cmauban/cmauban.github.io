@@ -8,4 +8,6 @@ I'm coming into this program with a growth mindset. I came here on my own time w
 
 
 http://www.brainpickings.org/2014/01/29/carol-dweck-mindset/
+
+
 https://www.khanacademy.org/youcanlearnanything
