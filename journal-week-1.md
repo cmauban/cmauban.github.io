@@ -1,12 +1,5 @@
-1. Test Driven Development (TDD): red green refractor (broken code). software development process that relies on the repetition of a short cycle. first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards.
-2. Pair Programming:
- - pilot - co poilot (pilot write code. co poilot reviews each line of code.)
- - ping-pong (one person write code and sees if it fails, then the other implements the code needed to pass the test)
- 
-3. Baby steps
+The first week at the Iron Yard has been a big challenge for me. I am completely out of my element and learning something I am not familiar with. I’m still learning how to process all of this information, but I feel like I’m building a good foundation. Test Driven Development (TDD) is the programming technique that we have been using to learn how to code.
 
-####What I've learned:
-- functions
-- if else statements
-- loops- for, while
-- arrays- methods
+Test Driven Development is a software development process that relies on repetition. First, we write a test that intentially fails so it needs improvement or a new function. Then, we produce just enough code to pass the test, and finally refactors the new code to acceptable standards. We sometimes call it "red green refractor (broken code.)" With this technique, we will eventually be able to write clean code that works.
+
+Personally, I think I need to slow it down a bit and take baby steps when approaching code. I need to first think about what I want to do and how to test it. Then, instead of trying to solve the problem completely, just write the minimum to take me to the next step. This will help with my learning process and give me more of an understanding of what I’m doing piece by piece.
