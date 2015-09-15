@@ -1,1 +1,3 @@
-
+- time management
+- event bubbling and capturing
+- merge conflicts.....
