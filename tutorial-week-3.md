@@ -1,25 +1,26 @@
 ####Tutorial
 *one small thing*
 
-How to center a box:
+**Technique on How to Center a Box:**
+Sometimes it's not just the text we need to center, but the box as a whole. A button is a good example of a box that is normally centered on a web page. To do this we want the margins to be equal.
 
-You can can either set the right and left margins to their default, `auto`, with any percentage value for width
+You can can either set the right and left margins to their default, `auto`, with *any fixed percentage* value for width:
 
 ```
 Selector {
     margin-right: auto;
     margin-left: auto;
-    width: %;
+    width: 80%;
     }
 ```
 
 or...
-You can set the width to it's default, `auto`, with the same percentage value for the right and left margins.
+You can set the width to it's default, `auto`, with a fixed percentage value for the right and left margins.
 
 ```
 Selector {
-    margin-right: %;
-    margin-left: %;
+    margin-right: 10%;
+    margin-left: 10%;
     width: auto;
     }
 ```
