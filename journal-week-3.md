@@ -1,13 +1,7 @@
 ####Reflective
 
-This past week we started learning CSS. The assignments were a lot easier to figure out because we could visually see the changes with trial and error. Multi Column Form was one of the assignments I finally became comfortable with after playing around with the selectors and properties. I had my first "Ah-ha" moment with this assignment after learning how to center with setting the `margin-left: auto;` and `margin-right: auto;`, as well as just creating the basic layout of CSS. This was when I was quickly able to back track and fix my mistakes.
+This past week we started learning CSS. The assignments were a lot easier to figure out because we could visually see the changes with trial and error. Multi-Column Form was one of the assignments I finally became comfortable with after playing around with the selectors and properties. I had my first "ah-ha" moment with this assignment after learning how to center my submit button with setting the `margin-left: auto;` and `margin-right: auto;`, as well as just creating the basic layout of CSS. This was when I was quickly able to back track and fix my mistakes.
 
-Bright/Dim/Blocker:
-- Bright- Choosing the correct selectors and properties
-- Dim- positioning the page from the very beginning and getting the right margins
-- Blocker- pseudo elements? k..WHY?
+I'm finally adjusting to this learning style. Once I had my first "ah-ha" moment, I understood how this learning style is beneficial. I'm becoming more organized as well. My bright blub with CSS would be choosing the correct selectors and properties for each element. Throughout the week my CSS code became cleaner and cleaner. Using code comments helps out a lot. My dim blub would still be positioning. I've been trying to position the page from the start with the overall document so I can get the right margins as a whole. Getting there.. but still not perfect. My blocker for CSS would be pseudo elements. I don't get why there is a `::before` and an `::after` after some elements and what changes before and after??
 
-Lessons Learned:
-- how to begin a CSS file with styles, mobile, tablet and desktop
-- how to center with margin-left and margin-right
-- linking fonts
+This week I have learned a lot and was able to go back and fix my code after certain lectures. This is a huge step from the JavaScript assignments where I feel like I just left them behind after getting too frustrated.
