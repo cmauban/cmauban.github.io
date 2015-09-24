@@ -1,7 +1,8 @@
 ####Tutorial
 
 **Technique on How to Center a Box:**
-It's annoying when you want to do something you think is so simple, yet you can't figure it out. Why was centering a box not working out for me at first.. Oh, because I was using `text-align: center`. Dumb. That was all I knew at the time. Sometimes, it's not just the text we need to center, but the box as a whole. A button is a good example of a box that is normally centered on a web page. Yep, the text will center align in the button, but not the button itself! As a starting point, grab the element for your button and make that your selector.
+
+It's annoying when you want to do something you think is so simple, such as centering a box- but the darn thing won't center! Why was centering a box not working out for me at first.. Oh, because I was using `text-align: center`. Dumb. That was all I knew at the time. Sometimes, it's not just the text we need to center, but the box as a whole. A button is a good example of a box that is normally centered on a web page. Yep, the text will center align in the button, but not the button itself! As a starting point, grab the element for your button and make that your selector.
 
 You can can either set the right and left margins to their default, `auto`, with *any fixed percentage* value for width:
 
