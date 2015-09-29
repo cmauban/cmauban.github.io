@@ -9,7 +9,8 @@ git checkout <branch>
 ```
 
 ###Step 2:
-`npm init` (gives you package.json)
+`npm init` (gives you package.json) 
+..gonna add more info here for the steps in the terminal
 
 ###Step 3: Install & save development dependencies
 in the terminal..
@@ -21,6 +22,7 @@ npm install --save-dev node-sass
 
 ###Step 4: Add `scripts` keys
 Under `scripts` key add: "start"- browser-sync, "sass"- node-sass
+..gonna add the right values
 
 ###Step 5: Make sure they work!
 - `npm start`
