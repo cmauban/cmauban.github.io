@@ -1,8 +1,27 @@
 ##Tutorial: Adding a Package.json file
 
-- `cd` folder, correct branch
-- `npm init` (gives you package.json)
-- install development dependencies
-- in `scripts` key add: "start"- browser-sync, "sass"- node-sass
+###Step 1:
+Before you add your package.json file..
+in your terminal, `cd` in directory you want your package.json, and make sure you are on the correct branch.
+```
+cd <directory>
+git checkout <branch>
+```
+
+###Step 2:
+`npm init` (gives you package.json)
+
+###Step 3: Install & save development dependencies
+in the terminal..
+```
+npm install --save-dev mocha chai
+npm install --save-dev browser-sync
+npm install --save-dev node-sass
+```
+
+###Step 4: Add `scripts` keys
+Under `scripts` key add: "start"- browser-sync, "sass"- node-sass
+
+###Step 5: Make sure they work!
 - `npm start`
 - `npm run sass`
