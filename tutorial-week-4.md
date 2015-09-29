@@ -1,4 +1,4 @@
-##Tutorial: Package.json
+##Tutorial: Adding a Package.json file
 
 - `cd` folder, correct branch
 - `npm init` (gives you package.json)
