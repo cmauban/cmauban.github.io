@@ -11,6 +11,8 @@ git checkout <branch>
 
 ###Step 2:
 `npm init` (gives you package.json) 
+`name:` current branch
+`version:` 0.0.0
 ..gonna add more info here for the steps in the terminal
 
 ###Step 3: Install & save development dependencies
