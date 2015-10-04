@@ -6,7 +6,8 @@ Before you add your package.json file, you want to make sure you're in the corre
 in your terminal, `cd` in directory you want your package.json, and make sure you are on the correct branch.
 ```
 cd <directory>
-git checkout <branch>
+git branch
+git checkout <branch> (if not on the correct branch)
 ```
 
 ###Step 2: Create a package.json file
@@ -15,7 +16,7 @@ In the terminal, type `npm init` to begin. This will ask you a series of questio
 - `name:` your current working branch. must be all lowercase
 - `version:` `0.0.0`
 - `Description:` you can optionally add a description of project (press enter to skip)
-- `keywords:` you can optionally add a description of project (press enter to skip)
+- `keywords:` you can optionally add keywords of project (press enter to skip)
 - `license:` `MIT`
 - `author:` your name, email, etc.
 - `repository:` the place your code lives. Most likely your github repo will already be on there so just press enter.
@@ -24,9 +25,9 @@ In the terminal, type `npm init` to begin. This will ask you a series of questio
 In the terminal, install these development dependencies.
 ```
 npm install (to get node sass node modules)
-npm install --save-dev mocha chai
-npm install --save-dev browser-sync
-npm install --save-dev node-sass
+npm install --save-dev mocha chai (for mocha chai testing)
+npm install --save-dev browser-sync (allows cpu to behave like a local server on the internet)
+npm install --save-dev node-sass (converts SCSS files into CSS files)
 ```
 ...Make sure `mocha`, `chai`, and `node-sass` were added to the package.json file under devDependencies.
 
