@@ -1,5 +1,5 @@
 ##Tutorial: Adding a Package.json file
-A package.json file stores all the information for a project. It is a short and concise description of the project and a great way easily check what's included.
+A package.json file stores all the information for a project. It is a short and concise description of the project and a great way to easily check what's included.
 
 ###Step 1: Make sure you are in the right directory
 Before you add your package.json file, you want to make sure you're in the correct directory.
