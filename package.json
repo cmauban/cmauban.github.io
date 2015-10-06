@@ -1,0 +1,27 @@
+{
+  "name": "cmauban.github.io",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --bail",
+    "start": "browser-sync start --server --directory --files='index.html'",
+    "sass": "node-sass --output-style expanded --output src/css/ src/scss/main.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmauban/cmauban.github.io.git"
+  },
+  "author": "camillemauban",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmauban/cmauban.github.io/issues"
+  },
+  "homepage": "https://github.com/cmauban/cmauban.github.io#readme",
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "browser-sync": "^2.9.8",
+    "gulp": "^3.9.0",
+    "node-sass": "^3.3.3"
+  }
+}
