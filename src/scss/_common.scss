@@ -14,9 +14,12 @@ body {
 
 .sidebar {
   width: 20%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
   background: #ffffff;
   border: 1px solid #000000;
-  padding-bottom: 50%;
+  padding-bottom: 80%;
 }
 
 
@@ -27,7 +30,7 @@ body {
   float: right;
   width: 79%;
   padding-bottom: 50%;
-  background: #ffffff;
+  // background: #ffffff;
 }
 
 .blog-grid::after {
@@ -37,19 +40,25 @@ body {
 }
 
 .blog-grid [class*='col-'] {
-  width: 40%;
-  float: right;
+  width: 50%;
+  float: left;
   padding-right: 1%;
-  // padding-bottom: 60%;
+  padding-left: 1%;
+  // border: 1px solid #000000;
+  padding-bottom: 50%;
 }
 
 [class*='col-']:last-of-type {
-  padding-right: 0;
+  // padding-right: 0;
 }
 
 .module {
-  padding: 1%;
-  background: #FFFFFF;
+  padding: 2%;
+  // background: #FFFFFF;
+  border: 1px solid #000000;
+  padding-bottom: 80%;
+  margin-top: 2%;
+  background: #f3f5f5;
 }
 
 // .col-2 {
