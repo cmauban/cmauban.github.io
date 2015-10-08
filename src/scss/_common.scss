@@ -15,21 +15,43 @@ body {
 
 .sidebar {
   display: block;
-  width: 25%;
+  width: 24%;
   float: left;
   margin: auto;
+  padding: 1%;
   // padding-left: 1%;
   // padding-right: 1%;
   // padding-top: 1%;
   background: #ffffff;
-  border: 1px solid #000000;
+  // border: 1px solid #000000;
   padding-bottom: 80%;
+}
+
+h1 {
+  text-align: left;
+  border-bottom: 1px solid #E6E6E6;
+  padding-bottom: 5%;
+}
+
+nav.tabs {
+  border-bottom: 1px solid #E6E6E6;
+  text-transform: uppercase;
+  padding-bottom: 5%;
+
+    a[href] {
+      display: block;
+      bottom: -1px;
+      padding-right: 8px;
+      padding-left: 8px;
+      font-size: 10pt;
+
+  }
 }
 
 .blog-content {
   float: right;
   width: 70%;
-  border: 1px solid #000000;
+  // border: 1px solid #000000;
   padding-bottom: 80%;
   background: #ffffff;
 }
