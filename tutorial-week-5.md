@@ -1,5 +1,6 @@
 ###Tutorial: Using the `.eq()` Selector
 
+- I found this selector very useful!
 - returns a specific jquery object.
 - `.eq()` or `:eq()`
 
