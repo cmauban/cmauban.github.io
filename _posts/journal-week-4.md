@@ -1,0 +1,7 @@
+##Reflection: Week 4
+
+Week four was a bit of a struggle- mainly just the dang chessboard. Though, working with each project and using the new tools constantly throughout the week clarified a lot for me. Practice makes perfect. It took a couple days to actually understand what we wanted to do with the chessboard. Once I had an idea of what I needed to do, I couldn't implement that to apply a move.
+
+UPDATE: One week later and I am stuck on the applyMove function still. All my tests are passing up until this point. I feel like I may be just one step ahead of myself with this part? Does this actually apply the move on the board? I would think so, but my tests and peers are saying otherwise. Going over writting test with mocha chai today helped a ton though. I'm starting to understand the importance of testing rather than diving right in. I have to keep reminding myself.. baby steps.
+
+Now that we have learned SASS, we converted our blueprint CSS files into SCSS with node-sass. I had no problem converting my files but I ended up nesting too much and messing up my CSS files! This was frustrating- especially for my multi-column form blueprint. I thought nesting was helpful at first. I thought we could take the common properties of a general selectors and group them together with the common properties applying to everything that is nested. Unfortunely, that is not the case. I'm sure it will be more useful when go over other things we can do with it, but for now, I just see it as a way of organizing.
