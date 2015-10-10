@@ -6,7 +6,7 @@
         <title>Blog</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
@@ -15,36 +15,53 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-
+    <div class="page-wrap">
     <main class="page-container">
-      <section class="sidebar">
-        <article class="module">
+      <aside class="sidebar">
+        <section class="sidebar-desktop">
+        <header id="page-header-sidebar">
           <h1>camille</h1>
-      </article>
-      <nav class="tabs">
-         <a href="#home">Home</a>
-         <a href="#panel-about">About</a>
-         <a href="#panel-blog">Blog</a>
-         <a href="#panel-portfolio">Portfolio</a>
-         <a href="#panel-contact">Contact</a>
-      </nav> <!-- END .TABS -->
+          <nav id="nav">
+            <div class="nav-inner">
+              <div class="hamburger">
+                <span class="item item-1"></span>
+                <span class="item item-2"></span>
+                <span class="item item-3"></span>
+            </div>
+            <ul class="navlist">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#panel-about">About</a></li>
+              <li><a href="#panel-blog">Blog</a></li>
+              <li><a href="#panel-porfolio">Porfolio</a></li>
+              <li><a href="#panel-contact">Contact</a></li>
+            </ul>
+            <div class="search-box">
+              <button><i class="fa fa-search"></i>
+              </button>
+              <form>
+                <input type="search" id="search" placeholder="Search...">
+              </form>
+            </div>
+            </div>
+          </nav>
+        </header>
+      </section>
+      </aside> <!--END SIDEBAR-->
 
-    </section> <!-- END .SIDEBAR -->
-
-
-      <div class="blog-grid">
-        <div class="grid-pad">
         <section class="blog-content">
+          <div class="blog-grid">
+            <div class="grid-pad">
           <article class="module">
           <p></p>
         </article>
+      </div>
+      </div>
       </section>
 
-      </div>
-      </div>
+
 
 </main> <!--END PAGE CONTAINER-->
-
+</div><!--END PAGE WRAP CONTAINER-->
 
 
 
