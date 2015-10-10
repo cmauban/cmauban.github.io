@@ -1,12 +1,25 @@
-// body {
-//   background: #E8EBFA;
-// }
-//
-// .page-wrap {
-//   position: relative;
-//   overflow: hidden;
-//   padding: 2%;
-// }
+body {
+  background: #E8EBFA;
+}
+
+.page-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.page-container {
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 1400px;
+}
+
+
 //
 //
 // .page-container {

@@ -13,14 +13,6 @@ body {
 
 .page-container {
   box-sizing: border-box;
-  position: relative;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  width: 100%;
-  max-width: 1400px;
   transform: none;
 }
 
@@ -66,8 +58,6 @@ body {
       max-width: 1400px;
       margin: 0 auto;
     }
-
-
 
 }
 
