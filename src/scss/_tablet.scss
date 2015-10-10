@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 768px) and (max-width: 991px) {
+@media screen and (min-device-width: 768px) and (max-width: 1024px) {
 
 .page-wrap {
   padding: 1%;
@@ -18,9 +18,19 @@
 .social-media {
   position: absolute;
   bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
+  right: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+
+
+      a {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+
 }
 
 #page-header-sidebar {
@@ -129,12 +139,6 @@ button.search {
   right: 0;
 
 }
-
-
-.blog-content {
-  padding-top: 196px;
-}
-
 
 
 
