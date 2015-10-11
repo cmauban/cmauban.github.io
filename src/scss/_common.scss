@@ -19,6 +19,14 @@ body {
   max-width: 1400px;
 }
 
+.panel { //HIDES/ACTIVATES PANELS
+  display: none; //ONLY 1 PANEL SHOWN
+
+      &.active { //SHOWS ACTIVE PANEL
+        display: inherit;
+      }
+
+}
 
 //
 //
