@@ -6,7 +6,7 @@
         <title>Blog</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
@@ -15,36 +15,71 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-
+    <div class="page-wrap">
     <main class="page-container">
-      <section class="sidebar">
-        <article class="module">
+      <aside class="sidebar">
+        <section class="sidebar-desktop">
+        <header id="page-header-sidebar">
           <h1>camille</h1>
-      </article>
-      <nav class="tabs">
-         <a href="#home">Home</a>
-         <a href="#panel-about">About</a>
-         <a href="#panel-blog">Blog</a>
-         <a href="#panel-portfolio">Portfolio</a>
-         <a href="#panel-contact">Contact</a>
-      </nav> <!-- END .TABS -->
+          <nav id="nav">
+            <div class="nav-inner">
+              <div class="hamburger">
+                <span class="item item-1"></span>
+                <span class="item item-2"></span>
+                <span class="item item-3"></span>
+            </div>
+            <ul class="navlist">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#panel-about">About</a></li>
+              <li><a href="#panel-blog">Blog</a></li>
+              <li><a href="#panel-porfolio">Porfolio</a></li>
+              <li><a href="#panel-contact">Contact</a></li>
+            </ul>
+            <div class="search-box">
+              <button><i class="fa fa-search"></i>
+              </button>
+              <form>
+                <input type="search" id="search" placeholder="Search...">
+              </form>
+            </div>
+            </div>
+          </nav>
+        </header>
+        <section class="social-media">
+          <a href="http://twitter.com/cmaubs" class="fa fa-twitter fa-2x"></a>
+          <a href="https://www.linkedin.com/in/camillemauban" class="fa fa-linkedin-square fa-2x"></a>
+          <a href="http://instagram.com/cmaubs" class="fa fa-instagram fa-2x"></a>
+        </section>
+      </section><!--END SIDEBAR DESKTOP-->
+      </aside> <!--END SIDEBAR-->
 
-    </section> <!-- END .SIDEBAR -->
-
-
-      <div class="blog-grid">
-        <div class="grid-pad">
-        <section class="blog-content">
-          <article class="module">
-          <p></p>
-        </article>
+        <section class="blog-content"> <!--BLOG CONTENT-->
+          <section class="blog-grid">
+            <div class="grid-pad">
+          <article id="post-1" class="post">
+          <h4>post</h4>
+          <p>Bacon ipsum dolor amet ball tip tongue tail, beef pastrami shoulder pork belly cupim. Ribeye capicola pastrami, cow hamburger shoulder doner kielbasa jowl pig tongue picanha tri-tip tail salami. Filet mignon pig venison pastrami bresaola strip steak brisket cupim. Short ribs porchetta salami short loin pork chop rump. Jowl biltong bacon salami porchetta frankfurter, turducken brisket tri-tip picanha kevin t-bone beef andouille.</p>
+          <p>Pig pork flank jerky ground round. Turkey ribeye tongue pork chop filet mignon chuck bacon. Pig rump pork loin, prosciutto chicken short loin alcatra. Salami shankle brisket shoulder, corned beef andouille leberkas filet mignon swine meatloaf turducken frankfurter short loin capicola. Meatloaf pastrami landjaeger cow flank prosciutto. Ribeye prosciutto doner brisket meatloaf landjaeger cow spare ribs beef kielbasa chicken ground round.</p>
+          <h3>Bacon</h3>
+          <ul class="data">
+            <li>October 10, 2015  | </li>
+            <li>3 Comments</li>
+          </ul>
+          </article>
+          <article id="post-2" class="post">
+            <p>2</p>
+          </article>
+          <article id="post-3" class="post">
+            <p>3</p>
+          </article>
+      </div>
+    </section>
       </section>
 
-      </div>
-      </div>
+
 
 </main> <!--END PAGE CONTAINER-->
-
+</div><!--END PAGE WRAP CONTAINER-->
 
 
 
