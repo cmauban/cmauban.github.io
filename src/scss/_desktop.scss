@@ -1,9 +1,3 @@
-
-
-body {
-  background: #E8EBFA;
-}
-
 .page-wrap {
   box-sizing: border-box;
   transform: none;
@@ -11,7 +5,6 @@ body {
   position: relative;
   padding: 5%;
 }
-
 
 .page-container {
   box-sizing: border-box;
@@ -33,7 +26,6 @@ body {
       .sidebar-desktop {
         padding-top: 0px;
         padding-bottom: 1px;
-        position: static;
       }
 
       #page-header-sidebar {
@@ -52,10 +44,10 @@ body {
 
 
 
-#nav {
+#nav { //FLEXIBLE NAV
   margin-bottom: 5%;
 
-    .nav-inner {
+    .nav-inner { //NAV LINKS & SEARCH BAR
       width: 100%;
       max-width: 1400px;
       margin: 0 auto;
@@ -73,7 +65,7 @@ body {
   left: 0;
   bottom: 0;
 
-      .item {
+      .item { //LINES IN ICON
         position: absolute;
         display: block;
         font-size: 0;
@@ -110,7 +102,7 @@ body {
   font-size: 0;
   margin-bottom:0;
 
-      li {
+      li { //EACH LINE OF LINK
         display: block;
         text-transform: uppercase;
         letter-spacing: 3px;
@@ -122,7 +114,7 @@ body {
 }
 
 
-#nav a[href] { //TAB LINKS
+#nav a[href] { //NAV LINKS
   display: block;
   bottom: -1px;
   padding-right: 8px;
@@ -189,7 +181,7 @@ body {
   padding-bottom: 10%;
 
 
-    a[href] { //TAB LINKS
+    a[href] { //ICON LINKS
       display: inline-block;
       bottom: -1px;
       padding-right: 8px;

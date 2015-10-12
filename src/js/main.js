@@ -7,7 +7,7 @@ $('.navlist').each(function(){ //iterates through each ahref
 
     $(this).addClass('active').siblings().removeClass('active'); //current href clicked is active
 
-    var active = $(this).attr('href'); //targets active tab
+    var active = $(this).attr('href'); //targets active tab and grabs that href
 
     $(active).addClass('active').siblings().removeClass('active'); //activates the corresponding content
 
