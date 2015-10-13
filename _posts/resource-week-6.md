@@ -1,1 +1,3 @@
+##Resource: [CSS transitions and Transforms] (https://robots.thoughtbot.com/transitions-and-transforms)
 
+As we worked on our blueprints over the weekend, we came across some CSS transitions and transforms we haven't used before. This is a great read to get a better understand of these two CSS properties and what they do! A simple animation can go a long way, creating better visual interaction for the user. I personally think the transition property is pretty nifty. It allows an element to be transformed smoothly and gradually, versus abruptly. It adds another dimension to the page that I think any user would be attracted to.
