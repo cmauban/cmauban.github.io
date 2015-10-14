@@ -3,7 +3,7 @@
 Whenever you are creating a grid, you need to use the `clearfix` hack because when you float any box, their height collapses and becomes 0. In this tutorial, I'm going to go over how to fix a common problem- wanting two boxes in one column, but them overlapping each other.
 
 ###1. problem: two boxes overlapping each other-
-![GitHub Logo](/Users/camillemauban/Desktop/problem.png)
+https://cloud.githubusercontent.com/assets/14016133/10472604/2dfbd792-71f0-11e5-9024-b18a368b08e1.png
 **HTML**
 ```
 <section class="col-1">
