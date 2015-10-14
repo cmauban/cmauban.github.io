@@ -17,4 +17,4 @@
   - looking at mobile view first
   - rebuilding HTML
 - the grid
-  - clearfix needed
+- clearfix
