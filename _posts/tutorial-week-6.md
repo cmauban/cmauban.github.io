@@ -1,6 +1,6 @@
 ##Tutorial: The Clearfix Hack
 
-Whenever you are creating a grid, you need to use the `clearfix` hack because when you float any box, their height collapses and becomes 0. In this tutorial, I'm going to go over how to fix a common problem- wanting two boxes in one column, but them overlapping each other.
+Whenever you are creating a grid, you need to use the `clearfix` hack because when you float any box, their height collapses and becomes 0. In this tutorial, I'm going to go over how to fix a common problem- wanting two boxes to be in one column, but them overlapping each other.
 
 ###1. Problem: two boxes overlapping each other-
 
@@ -31,7 +31,7 @@ Whenever you are creating a grid, you need to use the `clearfix` hack because wh
 }
 ```
 
-###2. create clearfix in css or html
+###2. Create the clearfix in css
 **Add this to your CSS**
 ```
 .col-2 {
@@ -40,6 +40,5 @@ Whenever you are creating a grid, you need to use the `clearfix` hack because wh
   clear: both;
 }
 ```
-###3. solved!
+###3. Problem solved!
 ![image](https://cloud.githubusercontent.com/assets/14016133/10472605/2fcdc7ba-71f0-11e5-92ce-1e6f0b46ccce.png)  
-- show new and improved image
