@@ -1,20 +1,11 @@
-##Reflective: Week 6
+##Reflective: Week 6- The Halfway Point
 
-**What I've Learned**
-- bower
-  - installs js and css you need for use in the browser
-  - install jquery
-  - bower.json
-- CDN links
-  - delivers content to the internet
-  - you use CDN links if you're connected to the internet
-- lodash
-  - template
-  - process
-  - this was a challenge
-- media queries
-  - responsive
-  - looking at mobile view first
-  - rebuilding HTML
-- the grid
-  - clearfix needed
+Ohh no- we are six weeks in, with six weeks to go. When I realized that I was half way done with this course, I thought to myself, do I know enough to be at this point? *halfway done?* At first, I was questioning myself, and of course, bringing myself down again, thinking- no, no, I haven't learned as utilitized my time wisely. But then I realized that we have learned SO much and that we aren't going to be able to learn it all in 12 weeks, yet alone 12 years (well, maybe)! In this industry, there is always something to learn. Technology will always be changing. Our brains will continue to grow!
+
+In week six, we went over the power of `bower`, lodash (or as I would like to call it, lodouche,) media queries, the grid and the `clearfix` hack.
+
+Our handy tool `bower` installs the jQuery and CSS you need to use in the browser. It can install any version of jQuery too which is pretty nifty. We were able to save octicons, font awesome, and lodash. Learning lodash was a big challenge for me. I spent most of my time trying to figure it out while pounding my head against the table. When I was first introduced to lodash, I thought, "Oh, a template! Lodash will make life easier!" WRONG. Lodash was so complicated! Now, I'm sure it will be very useful when I fully understand it- but as of now, I don't want to even look at lodouche.
+
+Now, back to something I'm more familiar with, or so I thought. The return of the blueprints! Ever since the first set of blueprints we worked on, I have loved building webpages starting from scratch, and making tweaks here and there after multiple refreshes. I think I'm pretty good at it (hey that's a good sign right?) But, what I loved about getting this set of blueprints is that now I know the power of babysteps and breaking it down. What I didn't realize, is that I didn't fully understand media queries, the grid, and starting with mobile first. This. ruined. everything. Desktop: done. tabs looking great. Mobile: wait. tabs are lists? my HTML needs to change? wait. what? Yep, I discovered that I need to look at both views first, and make sure that my HTML will correspond to both of them.
+
+One thing I became familiar with by the end of the week was the `clearfix` hack. This allows floated boxes to contain height. I wish I had been using this from the beginning because I have been using other "not-so-good" alternatives to make it work. Anywho, I will most likely go back and refactor my code... When I have time.
