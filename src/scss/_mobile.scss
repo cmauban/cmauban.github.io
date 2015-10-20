@@ -1,19 +1,19 @@
 @media screen and (min-device-width: 320px) and (max-width: 736px) {
 
   .page-wrap {
-    padding: 1%;
+    padding: 0;
   }
 
-  .page-container {
+  .container {
     margin-top: 0!important;
     padding-top: 0!important;
   }
+
 
   .blog-content {
     margin-top: 1.5%;
     width: 100%;
     padding-bottom: 30%;
-
   }
 
   .social-media {
@@ -34,25 +34,6 @@
 
   }
 
-  #page-header-sidebar {
-    position: absolute;
-    top: 40px;
-    left: 0;
-    right: 0;
-    padding: 30px 15px;
-
-
-        h1 {
-          font-size: 25pt;
-          color: #000000;
-          text-align: center;
-          padding-bottom: 5%;
-          margin-left: auto;
-          margin-right: auto;
-          width: 30%;
-        }
-
-  }
 
   #nav {
     position: fixed;
@@ -74,25 +55,13 @@
 
     }
 
-  ul #hamburger {
-    position: fixed;
-    width: 210px;
-    top: 0;
-    left: 0;
-    margin-top: 0;
-    padding: 30px 0;
-    overflow-x: hidden;
-    overflow-y: auto;
-    background: #ffffff;
 
-        li a {
-          position: relative;
-          display: block;
-          text-transform: uppercase;
-        }
+li a {
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+}
 
-
-  }
 
   .navlist {
     overflow-x: hidden;

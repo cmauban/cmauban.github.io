@@ -7,7 +7,7 @@ body {
   overflow: hidden;
 }
 
-.page-container {
+.container {
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
@@ -27,6 +27,54 @@ body {
       }
 
 }
+
+.hamburger {
+  position: absolute;
+  width: 50px;
+  height: 14px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+      .item { //LINES IN ICON
+        position: absolute;
+        display: block;
+        font-size: 0;
+        width: 20px;
+        height: 2px;
+        background: #000000;
+        margin: auto;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+      }
+
+      .item-1 {
+        top: 0;
+      }
+
+      .item-2 {
+        top: 0;
+        bottom: 0;
+      }
+
+      .item-3 {
+        bottom: 0;
+      }
+
+}
+
+
+.post {
+  background: #ffffff;
+  margin-bottom: 2%;
+  padding: 1.5%;
+}
+
+
+
+
 
 //
 //

@@ -1,6 +1,6 @@
 .blog-grid {
   width: 100%;
-  background: #ffffff;
+  // background: #ffffff;
   padding: 0 2% 1% 2%;
 }
 
@@ -14,22 +14,22 @@
   float: left;
   padding-right: 1%;
   width: 80%;
-  background: #eee;
+  // background: #eee;
 }
 
 [class*='post-']:last-of-type {
   padding-right: 0;
-  background: #eee;
+  // background: #eee;
 }
 
 .module {
   padding: 1%;
-  background: #EEE;
+  // background: #EEE;
 }
 
 article {
   margin-bottom: 1%;
-  background: #EEE;
+  // background: #EEE;
   padding-top: 0;
 }
 
