@@ -25,7 +25,11 @@ body {
       &.active { //SHOWS ACTIVE PANEL
         display: inherit;
       }
+}
 
+#panel-about, #panel-contact {
+  background: #ffffff;
+  padding: 1.5%;
 }
 
 .hamburger {

@@ -29,7 +29,6 @@
 
 article {
   margin-bottom: 1%;
-  // background: #EEE;
   padding-top: 0;
 }
 
@@ -42,10 +41,12 @@ h4 { //TYPE OF POST
 }
 
 h3 { //TITLE OF POST
-  font-size: 14pt;
+  font-size: 16pt;
   border-bottom: 1px solid #E6E6E6;
   padding-top: 2%;
   padding-bottom: 2%;
+  font-family: 'Old Standard TT', serif;
+  color: #333;
 
 }
 
