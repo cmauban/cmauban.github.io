@@ -1,6 +1,6 @@
 ##Reflection: Week 7
 
-In week seven we experienced working with a team for the first time. It was nice because I was able to focus on one particual feature and really perfect it, but it was challenging working as a whole.
+In week seven we experienced working with a team for the first time. It was nice because I was able to focus on one particual feature and really perfect it, but it was challenging working as a whole. We went from working in our own files and within our own repository, to thirteen people working out of the same repository, in the same files, at the same time. This caused dreaded merge conflicts that were no longer avoidable, as well as some disagreements.
 
 - what i've observed as team lead
 People are set in their own ways and may not listen to your advice.
