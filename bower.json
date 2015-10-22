@@ -1,6 +1,6 @@
 {
   "name": "cmauban.github.io",
-  "version": "0.0.5",
+  "version": "0.0.0",
   "homepage": "https://github.com/cmauban/cmauban.github.io",
   "authors": [
     "Camille Mauban <camille.mauban@gmail.com>"
@@ -22,7 +22,6 @@
     "normalize-css": "normalize.css#~3.0.3",
     "modernizr": "~3.1.0",
     "jquery": "~2.1.4",
-    "lodash": "~3.10.1",
-    "font-awesome": "fontawesome#~4.4.0"
+    "lodash": "~3.10.1"
   }
 }
