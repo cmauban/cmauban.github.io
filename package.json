@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --bail",
-    "start": "browser-sync start --server --directory --startPath src/index.html --files='src/index.html'",
-    "sass": "node-sass --output-style expanded --output src/css/ src/scss/main.scss"
+    "start": "browser-sync start --server --directory --startPath index.html --files='index.html'",
+    "sass": "node-sass --output-style expanded --output css/ scss/main.scss"
   },
   "repository": {
     "type": "git",

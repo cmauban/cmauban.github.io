@@ -6,14 +6,14 @@
   padding: 5%;
 }
 
-.page-container {
+.container {
   box-sizing: border-box;
   transform: none;
 }
 
 .sidebar {
   display: block;
-  width: 24%;
+  width: 25%;
   float: left;
   margin: auto;
   padding: 1%;
@@ -33,69 +33,26 @@
 
               h1 {
                 font-size: 25pt;
-                color: #000000;
+                color: #333;
                 text-align: left;
                 border-bottom: 1px solid #E6E6E6;
                 padding-bottom: 5%;
+                font-family: 'Old Standard TT', serif;
+                text-transform: uppercase;
               }
         }
 
-}
 
 
+} // END .SIDEBAR
 
-#nav { //FLEXIBLE NAV
-  margin-bottom: 5%;
-
-    .nav-inner { //NAV LINKS & SEARCH BAR
-      width: 100%;
-      max-width: 1400px;
-      margin: 0 auto;
-    }
-
-}
 
 .hamburger {
   display: none;
-  position: absolute;
-  width: 50px;
-  height: 14px;
-  margin: auto;
-  top: 0;
-  left: 0;
-  bottom: 0;
-
-      .item { //LINES IN ICON
-        position: absolute;
-        display: block;
-        font-size: 0;
-        width: 20px;
-        height: 2px;
-        background: #000000;
-        margin: auto;
-        left: 0;
-        right: 0;
-        overflow: hidden;
-      }
-
-      .item-1 {
-        top: 0;
-      }
-
-      .item-2 {
-        top: 0;
-        bottom: 0;
-      }
-
-      .item-3 {
-        bottom: 0;
-      }
-
 }
 
 .navlist {
-  // border-bottom: 1px solid #E6E6E6;
-  padding-bottom: 5%;
+  // padding-bottom: 5%;
   list-style-type: none;
   margin-left: 0;
   padding: 0px;
@@ -110,9 +67,7 @@
         font-size: 12pt;
       }
 
-
 }
-
 
 #nav a[href] { //NAV LINKS
   display: block;
@@ -138,12 +93,10 @@
 
         &.active {
           text-decoration: none;
-          color: #5625A1;
+          color: #af9b63;
 
         }
-
 }
-
 
 
 .search-box {
@@ -179,7 +132,6 @@
   padding-top: 10%;
   padding-bottom: 10%;
 
-
     a[href] { //ICON LINKS
       display: inline-block;
       bottom: -1px;
@@ -201,16 +153,12 @@
 
             }
 
-
     }
 
 }
 
 
-
 .blog-content {
-  float: right;
-  width: 70%;
-  background: #ffffff;
-  padding-top: 0px;
+  float: left;
+  width: 75%;
 }
