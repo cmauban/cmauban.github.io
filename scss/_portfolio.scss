@@ -1,0 +1,61 @@
+#portfolio {
+  width: 90%;
+  margin: 0 auto;
+  @extend .clearfix;
+
+article {
+  margin-bottom: 20px;
+
+    img {
+      width: 50%;
+      padding-right: 4%;
+      @extend .clearfix;
+    }
+
+    div.title-desc {
+      width: 50%;
+      float: right;
+
+        h2.project-title {
+          font-weight: 300;
+          margin-top: 0;
+          margin-bottom: 10px;
+        }
+
+        p.desc {
+          display: block;
+          margin-right: 10px;
+          margin-top: 0;
+          font-weight: 200;
+        }
+    }
+
+    p.links {
+      font-weight: 300;
+
+        a[href] {
+          display: inline-block;
+          font-weight: 300;
+          color: #80BFB7;
+
+                &:link {
+                  text-decoration:  none;
+                  color: #80BFB7;
+                }
+
+                &:visited {
+                  color: #80BFB7;
+                }
+
+                &:visited::before {
+                  display: none;
+
+                }
+        }
+    }
+
+
+
+  } // END ARTICLE
+
+}
