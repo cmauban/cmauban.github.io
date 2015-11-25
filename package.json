@@ -6,7 +6,10 @@
   "scripts": {
     "test": "mocha --bail",
     "start": "browser-sync start --server --directory --startPath index.html --files='index.html'",
-    "sass": "node-sass --output-style expanded --output css/ scss/main.scss"
+    "sass": "node-sass --output-style expanded --output css/ scss/main.scss",
+    "install:bower": "bower install --save",
+    "postinstall:bower": "wiredep --src 'src/*.html'",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
@@ -20,8 +23,9 @@
   "homepage": "https://github.com/cmauban/cmauban.github.io#readme",
   "devDependencies": {
     "bower": "^1.5.3",
-    "browser-sync": "^2.9.8",
+    "browser-sync": "^2.9.11",
     "gulp": "^3.9.0",
-    "node-sass": "^3.3.3"
+    "node-sass": "^3.3.3",
+    "wiredep": "^2.2.2"
   }
 }

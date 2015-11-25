@@ -2763,10 +2763,6 @@ textarea {
   box-sizing: border-box;
 }
 
-body {
-  background: #E8EBFA;
-}
-
 .page-wrap {
   position: relative;
   overflow: hidden;
@@ -2847,7 +2843,7 @@ article {
 h4 {
   text-transform: uppercase;
   font-size: 8pt;
-  font-weight: 400;
+  font-weight: 500;
   color: #af9b63;
   letter-spacing: 1px;
 }
@@ -2895,6 +2891,33 @@ p {
   content: "\f0e5";
   font-size: 8pt;
   margin-right: 2pt;
+}
+
+section.portfolio {
+  background: #fff;
+}
+
+section.portfolio article img {
+  width: 50%;
+  padding: 2%;
+}
+
+section.portfolio article div.title-desc {
+  width: 50%;
+  float: right;
+  margin-top: 8px;
+}
+
+section.portfolio article div.title-desc h2.project-title {
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+section.portfolio article div.title-desc p.desc {
+  display: block;
+  margin-right: 10px;
+  margin-top: 0;
 }
 
 .page-wrap {
@@ -2951,7 +2974,7 @@ p {
   margin-left: 0;
   padding: 0px;
   font-size: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .navlist li {
@@ -3135,7 +3158,7 @@ p {
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 768px) {
   .page-wrap {
     padding: 0;
   }
@@ -3244,6 +3267,18 @@ p {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: #E8EBFA;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -3303,14 +3338,16 @@ p {
  *    `:before` to contain the top-margins of child elements.
  */
 .clearfix:before,
-.clearfix:after {
+section.portfolio:before,
+section.portfolio article img:before,
+.clearfix:after, section.portfolio:after, section.portfolio article img:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
 
-.clearfix:after {
+.clearfix:after, section.portfolio:after, section.portfolio article img:after {
   clear: both;
 }
 

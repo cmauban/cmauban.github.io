@@ -15,11 +15,12 @@
         <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css" />
         <!-- endbower -->
 
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+    <body ng-app="portfolio">
     <div class="page-wrap">
     <main class="container">
       <aside class="sidebar">
@@ -34,81 +35,40 @@
                 <span class="item item-3"></span>
             </div>
             <ul class="navlist">
-              <li><a href="#home" class="">Home</a></li>
-              <li><a href="#panel-about" class="">About</a></li>
-              <li><a href="#panel-blog" class="active">Blog</a></li>
-              <li><a href="#panel-porfolio" class="">Porfolio</a></li>
-              <li><a href="#panel-contact" class="">Contact</a></li>
+              <li><a href="#/home" class="">Home</a></li>
+              <li><a href="#/about" class="">About</a></li>
+              <li><a href="#/blog" class="active">Blog</a></li>
+              <li><a href="#/portfolio" class="">Porfolio</a></li>
+              <li><a href="#/contact" class="">Contact</a></li>
             </ul>
-            <div class="search-box">
+            <!-- <div class="search-box">
               <button><i class="fa fa-search"></i>
               </button>
               <form>
                 <input type="search" id="search" placeholder="Search...">
               </form>
-            </div>
+            </div> -->
             </div>
           </nav>
         </header>
         <footer class="page-footer">
         <section class="social-media">
-          <a href="http://twitter.com/cmaubs" class="fa fa-twitter fa-2x"></a>
-          <a href="https://www.linkedin.com/in/camillemauban" class="fa fa-linkedin-square fa-2x"></a>
-          <a href="http://instagram.com/cmaubs" class="fa fa-instagram fa-2x"></a>
+          <a href="http://www.twitter.com/cmaubs" target="_blank" class="fa fa-twitter fa-2x"></a>
+          <a href="https://www.linkedin.com/in/camillemauban" target="_blank" class="fa fa-linkedin-square fa-2x"></a>
+          <a href="camille.mauban@gmail.com" target="_blank" class="fa fa-envelope-o fa-2x"></a>
+          <a href="https://github.com/cmauban" target="_blank" class="fa fa-github fa-2x"></a>
+
         </section>
       </footer>
       </section><!--END SIDEBAR DESKTOP-->
       </aside> <!--END SIDEBAR-->
 
-        <section class="blog-content"> <!--BLOG CONTENT-->
+      <section class="blog-content"> <!--BLOG CONTENT-->
           <section class="blog-grid">
             <div class="grid-pad">
-
-          <section class="panel active" id="panel-blog">
-          <article id="post-1" class="post">
-          <h4>reflective</h4>
-          <p>Bacon ipsum dolor amet ball tip tongue tail, beef pastrami shoulder pork belly cupim. Ribeye capicola pastrami, cow hamburger shoulder doner kielbasa jowl pig tongue picanha tri-tip tail salami. Filet mignon pig venison pastrami bresaola strip steak brisket cupim. Short ribs porchetta salami short loin pork chop rump. Jowl biltong bacon salami porchetta frankfurter, turducken brisket tri-tip picanha kevin t-bone beef andouille.</p>
-          <p>Pig pork flank jerky ground round. Turkey ribeye tongue pork chop filet mignon chuck bacon. Pig rump pork loin, prosciutto chicken short loin alcatra. Salami shankle brisket shoulder, corned beef andouille leberkas filet mignon swine meatloaf turducken frankfurter short loin capicola. Meatloaf pastrami landjaeger cow flank prosciutto. Ribeye prosciutto doner brisket meatloaf landjaeger cow spare ribs beef kielbasa chicken ground round.</p>
-          <h3>Cheese</h3>
-          <ul class="data">
-            <li class="fa user">By cmauban  |  </li>
-            <li class="fa date">October 10, 2015  | </li>
-            <li class="fa comments">3 Comments</li>
-          </ul>
-          </article>
-          <article id="post-2" class="post">
-            <h4>tutorial</h4>
-            <p>Bacon ipsum dolor amet ball tip tongue tail, beef pastrami shoulder pork belly cupim. Ribeye capicola pastrami, cow hamburger shoulder doner kielbasa jowl pig tongue picanha tri-tip tail salami. Filet mignon pig venison pastrami bresaola strip steak brisket cupim. Short ribs porchetta salami short loin pork chop rump. Jowl biltong bacon salami porchetta frankfurter, turducken brisket tri-tip picanha kevin t-bone beef andouille.</p>
-            <p>Pig pork flank jerky ground round. Turkey ribeye tongue pork chop filet mignon chuck bacon. Pig rump pork loin, prosciutto chicken short loin alcatra. Salami shankle brisket shoulder, corned beef andouille leberkas filet mignon swine meatloaf turducken frankfurter short loin capicola. Meatloaf pastrami landjaeger cow flank prosciutto. Ribeye prosciutto doner brisket meatloaf landjaeger cow spare ribs beef kielbasa chicken ground round.</p>
-            <h3>Bacon</h3>
-            <ul class="data">
-              <li class="fa user">By cmauban  |  </li>
-              <li class="fa date">October 11, 2015  | </li>
-              <li class="fa comments">6 Comments</li>
-            </ul>
-          </article>
-          <article id="post-3" class="post">
-            <h4>resource</h4>
-            <p>Bacon ipsum dolor amet ball tip tongue tail, beef pastrami shoulder pork belly cupim. Ribeye capicola pastrami, cow hamburger shoulder doner kielbasa jowl pig tongue picanha tri-tip tail salami. Filet mignon pig venison pastrami bresaola strip steak brisket cupim. Short ribs porchetta salami short loin pork chop rump. Jowl biltong bacon salami porchetta frankfurter, turducken brisket tri-tip picanha kevin t-bone beef andouille.</p>
-            <p>Pig pork flank jerky ground round. Turkey ribeye tongue pork chop filet mignon chuck bacon. Pig rump pork loin, prosciutto chicken short loin alcatra. Salami shankle brisket shoulder, corned beef andouille leberkas filet mignon swine meatloaf turducken frankfurter short loin capicola. Meatloaf pastrami landjaeger cow flank prosciutto. Ribeye prosciutto doner brisket meatloaf landjaeger cow spare ribs beef kielbasa chicken ground round.</p>
-            <h3>Chips</h3>
-            <ul class="data">
-              <li class="fa user">By cmauban  |  </li>
-              <li class="fa date">October 12, 2015  | </li>
-              <li class="fa comments">2 Comments</li>
-            </ul>
-          </article>
-      </section> <!--END OF BLOG PANEL-->
-        <section class="panel" id="panel-about">
-          <h2>about me</h2>
-          <p>Pig cow shankle alcatra pork, beef ribs pork loin hamburger swine. Corned beef porchetta drumstick strip steak tri-tip. Turducken hamburger t-bone jerky ham. Prosciutto shoulder cupim tail chicken, alcatra tongue picanha doner brisket ham hock meatball cow. Short loin ham hock swine jowl pork belly hamburger. Doner fatback venison ball tip corned beef chuck, biltong alcatra tail cupim porchetta meatloaf bresaola kevin pastrami. Sirloin spare ribs picanha prosciutto, tenderloin leberkas kevin cow brisket beef biltong bresaola tri-tip shankle pastrami.</p>
-        </section> <!--END OF ABOUT PANEL-->
-        <section class="panel" id="panel-contact">
-          <h2>contact me</h2>
-          <p>camille.mauban@gmail.com</p>
-        </section>
-      </div>
-    </section>
+              <ng-view></ng-view>
+            </div>
+      </section>
       </section>
 
 
@@ -118,10 +78,11 @@
 
 
         <!-- bower:js -->
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../bower_components/angular/angular.js"></script>
+        <script src="../bower_components/angular-route/angular-route.js"></script>
         <!-- endbower -->
 
-        <script src="../bower_components/jquery/dist/jquery.js"></script>
-        <script src="../bower_components/lodash/lodash.js"></script>
         <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
         <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
         <script src="js/plugins.js"></script>
