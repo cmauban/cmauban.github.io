@@ -1,18 +1,52 @@
+;(function(){
 
-$('.navlist').each(function(){ //iterates through each ahref
-  $('.blog-content').each(function(){ //iterates through the corresponding content
+angular.module('portfolio', ['ngRoute'], function($routeProvider) {
 
-  $('a').on('click', function(event){
-    event.preventDefault(); //stop browser to take action for clicked
+  $routeProvider.when('/', {
+    templateUrl: 'portfolio.html'
+  })
 
-    $(this).addClass('active').siblings().removeClass('active'); //current href clicked is active
+  .when('/portfolio', {
+    templateUrl: 'portfolio.html'
+  })
 
-    var active = $(this).attr('href'); //targets active tab and grabs that href
+  .when('/blog', {
+    templateUrl: 'blog.html'
+  })
 
-    $(active).addClass('active').siblings().removeClass('active'); //activates the corresponding content
+  .when('/contact', {
+    templateUrl: 'contact.html'
+  })
 
-
-
-    });
+  .when('/about', {
+    templateUrl: 'about.html'
   });
-});
+
+
+}); // END MODULE
+
+
+
+
+
+
+
+
+
+// $('.navlist').each(function(){ //iterates through each ahref
+//   $('.blog-content').each(function(){ //iterates through the corresponding content
+//
+//   $('a').on('click', function(event){
+//     event.preventDefault(); //stop browser to take action for clicked
+//
+//     $(this).addClass('active').siblings().removeClass('active'); //current href clicked is active
+//
+//     var active = $(this).attr('href'); //targets active tab and grabs that href
+//
+//     $(active).addClass('active').siblings().removeClass('active'); //activates the corresponding content
+// 
+//     });
+//   });
+// });
+
+})(); // END IIFE

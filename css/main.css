@@ -2763,10 +2763,6 @@ textarea {
   box-sizing: border-box;
 }
 
-body {
-  background: #E8EBFA;
-}
-
 .page-wrap {
   position: relative;
   overflow: hidden;
@@ -2847,7 +2843,7 @@ article {
 h4 {
   text-transform: uppercase;
   font-size: 8pt;
-  font-weight: 400;
+  font-weight: 500;
   color: #af9b63;
   letter-spacing: 1px;
 }
@@ -2951,7 +2947,7 @@ p {
   margin-left: 0;
   padding: 0px;
   font-size: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .navlist li {
@@ -3135,7 +3131,7 @@ p {
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 768px) {
   .page-wrap {
     padding: 0;
   }
@@ -3242,6 +3238,18 @@ p {
 
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: #E8EBFA;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
 }
 
 /* ==========================================================================
