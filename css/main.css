@@ -2893,6 +2893,33 @@ p {
   margin-right: 2pt;
 }
 
+section.portfolio {
+  background: #fff;
+}
+
+section.portfolio article img {
+  width: 50%;
+  padding: 2%;
+}
+
+section.portfolio article div.title-desc {
+  width: 50%;
+  float: right;
+  margin-top: 8px;
+}
+
+section.portfolio article div.title-desc h2.project-title {
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+section.portfolio article div.title-desc p.desc {
+  display: block;
+  margin-right: 10px;
+  margin-top: 0;
+}
+
 .page-wrap {
   box-sizing: border-box;
   transform: none;
@@ -3311,14 +3338,16 @@ h2 {
  *    `:before` to contain the top-margins of child elements.
  */
 .clearfix:before,
-.clearfix:after {
+section.portfolio:before,
+section.portfolio article img:before,
+.clearfix:after, section.portfolio:after, section.portfolio article img:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
 
-.clearfix:after {
+.clearfix:after, section.portfolio:after, section.portfolio article img:after {
   clear: both;
 }
 
