@@ -4,11 +4,11 @@
   @extend .clearfix;
 
 article {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 
     img {
       width: 50%;
-      padding-right: 4%;
+      padding-right: 30px;
       @extend .clearfix;
     }
 
@@ -20,6 +20,7 @@ article {
           font-weight: 300;
           margin-top: 0;
           margin-bottom: 10px;
+          font-size: 4.5vh;
         }
 
         p.desc {
@@ -27,11 +28,20 @@ article {
           margin-right: 10px;
           margin-top: 0;
           font-weight: 200;
+          font-size: 3vh;
+
+          a[href] {
+            color: #A48DCC;
+            text-decoration: none;
+            font-weight: 300;
+          }
+
         }
     }
 
     p.links {
       font-weight: 300;
+      font-size: 3vh;
 
         a[href] {
           display: inline-block;
@@ -58,4 +68,55 @@ article {
 
   } // END ARTICLE
 
-}
+} // END portfolio
+
+
+
+// TABLET VIEW
+@media screen and (max-width: 1024px) {
+
+  #portfolio article {
+    margin-bottom: 60px;
+  }
+
+  h2.project-title {
+    font-size: 1em !important;
+  }
+
+  .title-desc p.desc, p.links {
+    font-size: .9em !important;
+  }
+
+} // END TABLET
+
+
+// MOBILE VIEW
+@media screen and (max-width: 776px) {
+
+  #portfolio article {
+    margin-bottom: 30px !important;
+  }
+
+  h2.project-title {
+    font-size: 1.5vh !important;
+  }
+
+  .title-desc p.desc, p.links {
+    font-size: 1vh !important;
+  }
+
+  // @media screen and (max-width: 688px) {
+  //
+  //   h2.project-title {
+  //     font-size: .8em;
+  //   }
+  //
+  //   .title-desc p.desc, p.links {
+  //     font-size: .7em;
+  //   }
+  //
+  // }
+
+
+
+} // END MOBILE

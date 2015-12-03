@@ -2738,12 +2738,12 @@ textarea {
 }
 
 #portfolio article {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 #portfolio article img {
   width: 50%;
-  padding-right: 4%;
+  padding-right: 30px;
 }
 
 #portfolio article div.title-desc {
@@ -2755,6 +2755,7 @@ textarea {
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 10px;
+  font-size: 4.5vh;
 }
 
 #portfolio article div.title-desc p.desc {
@@ -2762,10 +2763,18 @@ textarea {
   margin-right: 10px;
   margin-top: 0;
   font-weight: 200;
+  font-size: 3vh;
+}
+
+#portfolio article div.title-desc p.desc a[href] {
+  color: #A48DCC;
+  text-decoration: none;
+  font-weight: 300;
 }
 
 #portfolio article p.links {
   font-weight: 300;
+  font-size: 3vh;
 }
 
 #portfolio article p.links a[href] {
@@ -2787,9 +2796,34 @@ textarea {
   display: none;
 }
 
+@media screen and (max-width: 1024px) {
+  #portfolio article {
+    margin-bottom: 60px;
+  }
+  h2.project-title {
+    font-size: 1em !important;
+  }
+  .title-desc p.desc, p.links {
+    font-size: .9em !important;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  #portfolio article {
+    margin-bottom: 30px !important;
+  }
+  h2.project-title {
+    font-size: 1.5vh !important;
+  }
+  .title-desc p.desc, p.links {
+    font-size: 1vh !important;
+  }
+}
+
 #contact {
   width: 90%;
   margin: 0 auto;
+  height: 100vh;
 }
 
 #contact .contact {
