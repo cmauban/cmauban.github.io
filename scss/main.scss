@@ -107,6 +107,7 @@ $fa-font-path: '../bower_components/font-awesome/fonts';
 // @import 'mobile';
 // @import 'tablet';
 @import 'portfolio';
+@import 'contact';
 
 
 *, *::before, *::after {
@@ -136,10 +137,11 @@ h2 {
   @extend .clearfix;
   width: 100%;
   text-align: left;
-  position: absolute;
+  position: fixed;
   top: 0;
   padding: 10px 5%;
   color: #fff;
+  background: #fff;
   border-bottom: 1px solid #000;
 
     h1 {
@@ -259,6 +261,12 @@ div.intro {
       width: 50%;
       text-align: left;
       margin: 45px auto;
+
+      a[href] {
+        color: #A48DCC;
+        text-decoration: none;
+      }
+
     }
 
 
@@ -293,6 +301,7 @@ h3.heading {
   text-align: center;
   color: #A48DCC;
   font-size: 3em;
+  margin-top: 90px;
 }
 
 

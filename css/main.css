@@ -2787,6 +2787,43 @@ textarea {
   display: none;
 }
 
+#contact {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#contact .contact {
+  margin-left: 300px;
+}
+
+#contact .contact a[href] {
+  display: inline-block;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-bottom: 10px;
+}
+
+#contact .contact a[href]:link {
+  text-decoration: none;
+  color: #000;
+}
+
+#contact .contact a[href]:visited {
+  color: #000;
+}
+
+#contact .contact a[href]:visited::before {
+  display: none;
+}
+
+#contact .contact a[href] p {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 300;
+  display: inline-block;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -2811,10 +2848,11 @@ main.container {
 #main-header {
   width: 100%;
   text-align: left;
-  position: absolute;
+  position: fixed;
   top: 0;
   padding: 10px 5%;
   color: #fff;
+  background: #fff;
   border-bottom: 1px solid #000;
 }
 
@@ -2930,6 +2968,11 @@ div.intro p.about {
   margin: 45px auto;
 }
 
+div.intro p.about a[href] {
+  color: #A48DCC;
+  text-decoration: none;
+}
+
 div.intro .social-media a[href] {
   display: inline-block;
   bottom: -1px;
@@ -2954,6 +2997,7 @@ h3.heading {
   text-align: center;
   color: #A48DCC;
   font-size: 3em;
+  margin-top: 90px;
 }
 
 /* ==========================================================================
@@ -3017,16 +3061,17 @@ h3.heading {
 .clearfix:before,
 #portfolio:before,
 #portfolio article img:before,
+#contact:before,
 #main-header:before,
 #main-header #hamburger-nav:before,
-.clearfix:after, #portfolio:after, #portfolio article img:after, #main-header:after, #main-header #hamburger-nav:after {
+.clearfix:after, #portfolio:after, #portfolio article img:after, #contact:after, #main-header:after, #main-header #hamburger-nav:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
 
-.clearfix:after, #portfolio:after, #portfolio article img:after, #main-header:after, #main-header #hamburger-nav:after {
+.clearfix:after, #portfolio:after, #portfolio article img:after, #contact:after, #main-header:after, #main-header #hamburger-nav:after {
   clear: both;
 }
 
