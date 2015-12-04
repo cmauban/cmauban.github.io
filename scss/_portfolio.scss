@@ -91,31 +91,34 @@ article {
 
 
 // MOBILE VIEW
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 766px) {
 
   #portfolio article {
-    margin-bottom: 30px !important;
+
+      img {
+        width: 100%;
+        padding-right: 0 !important;
+      }
+
+      div.title-desc {
+        margin: 0 auto !important;
+        width: 100% !important;
+        float: none !important;
+
+        h2.project-title {
+          margin-top: 20px;
+          font-size: 1em;
+        }
+
+        p.desc {
+          text-align: justify;
+        }
+
+      }
+
   }
 
-  h2.project-title {
-    font-size: 1.5vh !important;
-  }
 
-  .title-desc p.desc, p.links {
-    font-size: 1vh !important;
-  }
-
-  // @media screen and (max-width: 688px) {
-  //
-  //   h2.project-title {
-  //     font-size: .8em;
-  //   }
-  //
-  //   .title-desc p.desc, p.links {
-  //     font-size: .7em;
-  //   }
-  //
-  // }
 
 
 

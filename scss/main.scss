@@ -101,11 +101,6 @@ $fa-font-path: '../bower_components/font-awesome/fonts';
 // endbower
 
 
-// @import 'grid';
-// @import 'common';
-// @import 'desktop';
-// @import 'mobile';
-// @import 'tablet';
 @import 'portfolio';
 @import 'contact';
 
@@ -143,6 +138,7 @@ h2 {
   color: #fff;
   background: #fff;
   border-bottom: 1px solid #000;
+  margin: 0 auto;
 
     h1 {
       font-weight: 200;
@@ -159,7 +155,7 @@ h2 {
     }
 
     .hamburger.fa.fa-bars {
-    color: #fff;
+    color: #000;
     font-size: 25pt;
     text-decoration: none;
     position: absolute;
@@ -176,9 +172,9 @@ h2 {
   clear: both;
   font-size: 11pt;
   font-weight: 300;
-  // display: none;
+  display: block;
 
-    a {
+    a[href] {
       color: #000;
       text-decoration: none;
       padding-left: 40px;
@@ -186,7 +182,7 @@ h2 {
     }
 }
 
-  #hamburger-nav {
+  .hamburger-nav {
     @extend .clearfix;
     float: right;
     box-sizing: border-box;
@@ -199,7 +195,7 @@ h2 {
     z-index: 1000;
 
     ul {
-      background: #fff;
+      // background: #fff;
       // width: 100%;
       height: auto;
       padding: 5%;
@@ -213,20 +209,52 @@ h2 {
           list-style-type: none;
           margin-bottom: 10px;
           display: block;
-          text-align: center;
+          text-align: right;
+          color: #000;
 
           a[href]{
             font-size: 1.4em;
+            color: #000;
           }
         }
     }
 } // hamburger-nav
 
-      .show {
-        display: block !important;
-      }
+
 
 } // END main-header
+
+.hamburger {
+  display: none !important;
+}
+
+@media screen and (max-width: 766px) {
+
+  .hamburger {
+    display: block !important;
+  }
+
+  .nav {
+    display: none !important;
+  }
+
+  .hamburger-nav {
+    // display: block !important;
+    background: #fff;
+    width: 50% !important;
+
+      li a[href] {
+        text-decoration: none;
+      }
+  }
+
+  .show {
+    display: block !important;
+  }
+
+}
+
+
 
 .main-content {
   width: 100%;
