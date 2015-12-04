@@ -2919,7 +2919,7 @@ main.container {
     text-align: justify !important;
   }
   #contact .contact {
-    margin: 0;
+    margin: 0 0 0 25px !important;
   }
   #contact .contact a[href] {
     font-size: 1.2em;
@@ -2931,7 +2931,7 @@ main.container {
     width: 70% !important;
   }
   #contact .contact {
-    margin-left: 150px;
+    margin-left: 65px;
   }
 }
 
@@ -2962,11 +2962,11 @@ main.container {
 
 #main-header .hamburger.fa.fa-bars {
   color: #000;
-  font-size: 25pt;
+  font-size: 19pt;
   text-decoration: none;
   position: absolute;
   display: block;
-  top: 15px;
+  top: 21px;
   right: 5%;
   z-index: 1000;
 }
@@ -2996,13 +2996,14 @@ main.container {
   display: none;
   position: absolute;
   right: 0;
-  top: 48px;
+  top: 64px;
   z-index: 1000;
+  background: #000;
 }
 
 #main-header .hamburger-nav ul {
-  height: auto;
-  padding: 5%;
+  height: 100vh;
+  padding: 8%;
   position: relative;
   display: block;
   font-weight: 200;
@@ -3015,12 +3016,12 @@ main.container {
   margin-bottom: 10px;
   display: block;
   text-align: right;
-  color: #000;
+  color: #fff;
 }
 
 #main-header .hamburger-nav ul li a[href] {
   font-size: 1.4em;
-  color: #000;
+  color: #fff;
 }
 
 .hamburger {

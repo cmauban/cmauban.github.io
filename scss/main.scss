@@ -175,7 +175,8 @@ div.intro {
 }
 
 #contact .contact {
-  margin: 0;
+  margin: 0 0 0 5px !important;
+
 
     a[href] {
       font-size: 1.2em;
@@ -194,7 +195,7 @@ div.intro {
   }
 
   #contact .contact {
-    margin-left: 150px;
+    margin-left: 65px;
   }
 
 }
@@ -230,11 +231,11 @@ div.intro {
 
     .hamburger.fa.fa-bars {
     color: #000;
-    font-size: 25pt;
+    font-size: 19pt;
     text-decoration: none;
     position: absolute;
     display: block;
-    top: 15px;
+    top: 21px;
     right: 5%;
     z-index: 1000;
   }
@@ -265,12 +266,13 @@ div.intro {
     display: none;
     position: absolute;
     right: 0;
-    top: 48px;
+    top: 64px;
     z-index: 1000;
+    background: #000;
 
     ul {
-      height: auto;
-      padding: 5%;
+      height: 100vh;
+      padding: 8%;
       position: relative;
       display: block;
       font-weight: 200;
@@ -282,11 +284,11 @@ div.intro {
           margin-bottom: 10px;
           display: block;
           text-align: right;
-          color: #000;
+          color: #fff;
 
           a[href]{
             font-size: 1.4em;
-            color: #000;
+            color: #fff;
           }
         }
     }
