@@ -1,52 +1,42 @@
-;(function(){
+$('.hamburger').on('click', function(){
+  $('.hamburger-nav').slideToggle('show');
+});
 
-angular.module('portfolio', ['ngRoute'], function($routeProvider) {
-
-  $routeProvider.when('/', {
-    templateUrl: 'portfolio.html'
-  })
-
-  .when('/portfolio', {
-    templateUrl: 'portfolio.html'
-  })
-
-  .when('/blog', {
-    templateUrl: 'blog.html'
-  })
-
-  .when('/contact', {
-    templateUrl: 'contact.html'
-  })
-
-  .when('/about', {
-    templateUrl: 'about.html'
-  });
-
-
-}); // END MODULE
-
-
-
-
-
-
-
-
-
-// $('.navlist').each(function(){ //iterates through each ahref
-//   $('.blog-content').each(function(){ //iterates through the corresponding content
+// // hamburger menu behavior
+// var hb=false;
+// $('.hamburger').on('click', function(){
+//   if (hb === false) {
+//   $('.hamburger-nav').slideToggle('show');
+//   setTimeout(function(){ hb=true; }, 500);
+// }
+// });
 //
-//   $('a').on('click', function(event){
-//     event.preventDefault(); //stop browser to take action for clicked
-//
-//     $(this).addClass('active').siblings().removeClass('active'); //current href clicked is active
-//
-//     var active = $(this).attr('href'); //targets active tab and grabs that href
-//
-//     $(active).addClass('active').siblings().removeClass('active'); //activates the corresponding content
-// 
-//     });
-//   });
+// $('.hamburger-nav li').on('click', function(){
+//   $('.hamburger-nav').slideToggle('show');
+//   hb=false;
 // });
 
-})(); // END IIFE
+// $('*:not(.hamburger)').on('click', function(){
+//   if (hb) {
+//     $('.hamburger-nav').slideToggle('show');
+//     hb=false;
+//   }
+// });
+
+
+
+$('.nav').each(function(){ //iterates through each ahref
+  $('.main-content').each(function(){ //iterates through the corresponding content
+
+  $('.nav a').on('click', function(event){
+    // event.preventDefault(); //stop browser to take action for clicked
+
+    $(this).addClass('active').siblings().removeClass('active'); //current href clicked is active
+
+    var active = $(this).attr('href'); //targets active tab and grabs that href
+
+    $(active).addClass('active').siblings().removeClass('active'); //activates the corresponding content
+
+    });
+  });
+});

@@ -101,17 +101,9 @@ $fa-font-path: '../bower_components/font-awesome/fonts';
 // endbower
 
 
-@import 'grid';
-@import 'common';
-@import 'desktop';
-@import 'mobile';
-@import 'tablet';
+@import 'portfolio';
+@import 'contact';
 
-$accent: #E45F56;
-$dark: #35404F;
-$teal: #4AAAA5;
-$light-teal: #7ACCC8;
-$green: #A3D39C;
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -121,7 +113,7 @@ body {
   margin: 0 auto;
   width: 100%;
   font-family: 'Roboto', sans-serif;
-  background: #E8EBFA;
+  background: #fff;
 }
 
 h2 {
@@ -129,12 +121,268 @@ h2 {
   text-transform: uppercase;
 }
 
-//
-//  main.container {
-//   @extend .grid;
-//   margin: 0 auto;
-//   width: 100%;
-// }
+
+ main.container {
+  @extend .grid;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+// MOBILE VIEW
+@media screen and (max-width: 766px) {
+
+  .hamburger.fa-bars {
+    display: block !important;
+  }
+
+  .nav {
+    display: none !important;
+  }
+
+  .hamburger-nav {
+    // display: block !important;
+    background: #fff;
+    width: 50% !important;
+
+      li a[href] {
+        text-decoration: none;
+      }
+  }
+
+  .show {
+    display: block !important;
+  }
+
+div.intro {
+  padding-top: 62px !important;
+
+  h2.name {
+    font-size: 4em !important;
+    line-height: 1;
+  }
+
+  h4.title {
+    font-size: 1.5em !important;
+    margin: 10px 0 10px 0 !important;
+  }
+
+  p.about {
+    width: 90% !important;
+    text-align: justify !important;
+  }
+
+}
+
+#contact .contact {
+  margin: 0;
+
+    a[href] {
+      font-size: 1.2em;
+    }
+
+}
+
+} // END MOBILE VIEW
+
+
+//TABLET VIEW
+@media screen and (max-width: 1024px) {
+
+  p.about {
+    width: 70% !important;
+  }
+
+  #contact .contact {
+    margin-left: 150px;
+  }
+
+}
+
+
+
+
+#main-header {
+  @extend .clearfix;
+  width: 100%;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  padding: 10px 5%;
+  color: #fff;
+  background: #fff;
+  border-bottom: 1px solid #000;
+  margin: 0 auto;
+
+    h1 {
+      font-weight: 200;
+      width: 30%;
+      margin: 0;
+      display: inline-block;
+      color: #000;
+
+      a[href] {
+        text-decoration: none;
+        color: #fff;
+      }
+
+    }
+
+    .hamburger.fa.fa-bars {
+    color: #000;
+    font-size: 25pt;
+    text-decoration: none;
+    position: absolute;
+    display: block;
+    top: 15px;
+    right: 5%;
+    z-index: 1000;
+  }
+
+  .nav {
+  margin-top: 15px;
+  float: right;
+  display: inline-block;
+  clear: both;
+  font-size: 11pt;
+  font-weight: 300;
+  display: block;
+
+    a[href] {
+      color: #000;
+      text-decoration: none;
+      padding-left: 40px;
+      text-transform: uppercase;
+    }
+}
+
+  .hamburger-nav {
+    @extend .clearfix;
+    float: right;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 48px;
+    z-index: 1000;
+
+    ul {
+      height: auto;
+      padding: 5%;
+      position: relative;
+      display: block;
+      font-weight: 200;
+      opacity: 1;
+      z-index: 1000;
+
+        li {
+          list-style-type: none;
+          margin-bottom: 10px;
+          display: block;
+          text-align: right;
+          color: #000;
+
+          a[href]{
+            font-size: 1.4em;
+            color: #000;
+          }
+        }
+    }
+} // hamburger-nav
+
+
+
+} // END main-header
+
+.hamburger {
+  display: none !important;
+}
+
+
+
+.main-content {
+  width: 100%;
+  margin: 0 auto;
+  // background: #E8EBFA;
+}
+
+div.intro {
+  text-align: center;
+  height: 100vh;
+  padding-top: 100px;
+  width: 90%;
+  margin: 0 auto;
+
+    h2.name {
+      font-size: 5em;
+      letter-spacing: 2pt;
+      text-transform: capitalize;
+      margin-bottom: 0;
+      color: #A48DCC;
+    }
+
+    h4.title {
+      font-size: 2em;
+      font-weight: 200;
+      margin: 0 0 10px 0;
+      text-transform: uppercase;
+
+    }
+
+    p.about {
+      width: 50%;
+      text-align: left;
+      margin: 45px auto;
+
+      a[href] {
+        color: #A48DCC;
+        text-decoration: none;
+      }
+
+    }
+
+
+    .social-media {
+
+        a[href] { //ICON LINKS
+          display: inline-block;
+          bottom: -1px;
+          padding-right: 8px;
+          padding-left: 8px;
+          // color: #707070;
+
+                &:link {
+                  text-decoration:  none;
+                  color: #000;
+                }
+
+                &:visited {
+                  color: #000;
+                }
+
+                &:visited::before {
+                  display: none;
+
+                }
+        }
+    }
+
+} // END intro
+
+h3.heading {
+  text-align: center;
+  color: #A48DCC;
+  font-size: 3em;
+  margin-top: 90px;
+}
+
+
+
+
+
+
 
 
 

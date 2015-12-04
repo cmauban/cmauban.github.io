@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>camille mauban | blog</title>
+        <title>camille mauban | portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -20,61 +20,122 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body ng-app="portfolio">
-    <div class="page-wrap">
+    <body>
+
     <main class="container">
-      <aside class="sidebar">
-        <section class="sidebar-desktop">
-        <header id="page-header-sidebar">
-          <h1>camille</h1>
-          <nav id="nav">
-            <div class="nav-inner">
-              <div class="hamburger">
-                <span class="item item-1"></span>
-                <span class="item item-2"></span>
-                <span class="item item-3"></span>
-            </div>
-            <ul class="navlist">
-              <li><a href="#/home" class="">Home</a></li>
-              <li><a href="#/about" class="">About</a></li>
-              <li><a href="#/blog" class="active">Blog</a></li>
-              <li><a href="#/portfolio" class="">Porfolio</a></li>
-              <li><a href="#/contact" class="">Contact</a></li>
+        <header id="main-header">
+          <h1>cm</h1>
+          <nav class="nav">
+            <a href="#home" class="active">Home</a>
+            <a href="#portfolio" class="">Porfolio</a>
+            <a href="#contact" class="">Contact</a>
+            <a href="#blog" class="">Blog</a>
+          </nav>
+
+          <a href="#" class="hamburger fa fa-bars"></a>
+          <nav class="hamburger-nav">
+            <ul>
+              <li><a href="#home" class="">Home</a></li>
+              <li><a href="#portfolio" class="">Porfolio</a></li>
+              <li><a href="#contact" class="">Contact</a></li>
+              <li><a href="#blog" class="">Blog</a></li>
             </ul>
-            <!-- <div class="search-box">
-              <button><i class="fa fa-search"></i>
-              </button>
-              <form>
-                <input type="search" id="search" placeholder="Search...">
-              </form>
-            </div> -->
-            </div>
           </nav>
         </header>
-        <footer class="page-footer">
+
+      <section class="main-content">
+        <section id="home" class="panel active">
+        <div class="intro">
+        <h2 class="name">Camille Mauban</h2>
+        <h4 class="title">Front End Developer</h3>
+        <p class="about">I'm a recent grad from the Front End Engineering program at <a href="http://theironyard.com/courses/front-end-engineering/" target="_blank">The Iron Yard</a> in Durham, NC. I am looking for a position where I can utilize my UI skills as well as continue to learn. When I'm not on a computer, I'm either watercoloring, sketching, or watching some Green Bay Packer football.</p>
         <section class="social-media">
           <a href="http://www.twitter.com/cmaubs" target="_blank" class="fa fa-twitter fa-2x"></a>
           <a href="https://www.linkedin.com/in/camillemauban" target="_blank" class="fa fa-linkedin-square fa-2x"></a>
-          <a href="camille.mauban@gmail.com" target="_blank" class="fa fa-envelope-o fa-2x"></a>
+          <a href="mailto:camille.mauban@gmail.com" target="_blank" class="fa fa-envelope-o fa-2x"></a>
           <a href="https://github.com/cmauban" target="_blank" class="fa fa-github fa-2x"></a>
-
         </section>
-      </footer>
-      </section><!--END SIDEBAR DESKTOP-->
-      </aside> <!--END SIDEBAR-->
+      </div>
+    </section> <!-- END HOME -->
 
-      <section class="blog-content"> <!--BLOG CONTENT-->
-          <section class="blog-grid">
-            <div class="grid-pad">
-              <ng-view></ng-view>
-            </div>
+    <section id="portfolio" class="panel">
+      <h3 class="heading">Portfolio</h3>
+      <article>
+        <img src="https://cloud.githubusercontent.com/assets/14016133/11386723/29b4def4-92f2-11e5-87a1-28f80dfda611.png"/>
+      <div class="title-desc">
+        <h2 class="project-title">Ziptrip</h2>
+        <p class="desc">Ziptrip is a single-page application that generates a personalized road trip for you based
+          on your taste in food, music, sports and hobbies. It finds the major cities along the route and suggests stopping points.
+          Ziptrip was my final project for The Iron Yard and presented first at Demo Day. This AngularJs application was built in less
+          than two and a half weeks.</p>
+        <p class="links"><a href="https://ziptrip.firebaseapp.com/#/" target="_blank">visit site</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;  <a href="github.com/cmauban" target="_blank">view code on GitHub</a></p>
+      </div>
+      </article>
+
+      <article>
+        <img src="https://cloud.githubusercontent.com/assets/14016133/11574258/7b4bd924-99d8-11e5-851f-6425383ffb0e.jpg"/>
+      <div class="title-desc">
+        <h2 class="project-title">stack overflow</h2>
+        <p class="desc">This was my first cross-collaboration with two ruby on rails students, first exposure with Angularjs, and really integrating live API data. We were to re-create stack overflow where users are available
+        to create an account, post a question, answer a question and rate answers. This project was created in three days.</p>
+        <p class="links"><a href="https://blacajojo--gui.firebaseapp.com/#/home" target="_blank">visit site</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;  <a href="https://github.com/BlaCaJoJo/gui" target="_blank">view code on GitHub</a></p>
+      </div>
+      </article>
+
+      <article>
+        <img src="https://cloud.githubusercontent.com/assets/14016133/11511297/4908c0e2-9836-11e5-8792-61ee0e1da118.jpg"/>
+      <div class="title-desc">
+        <h2 class="project-title">Stat tracker</h2>
+        <p class="desc">jacStat Tracker is a mobile web application that tracks the daily activity of a user. You are able to add an activity on a specific date and see your overall stats.
+          It is meant for the mobile device. This was a collaboration with two python students and our second cross-collaboration project created in three days.</p>
+        <p class="links"><a href="https://jjac-stat.firebaseapp.com/#/" target="_blank">visit site</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;  <a href="https://github.com/JJAC-Stat/gui" target="_blank">view code on GitHub</a></p>
+      </div>
+      </article>
+
+      <article>
+        <img src="https://cloud.githubusercontent.com/assets/14016133/11574829/da8561b4-99db-11e5-8cbb-8a8179627489.jpg"/>
+      <div class="title-desc">
+        <h2 class="project-title">Chessboard</h2>
+        <p class="desc">To get a better understanding of JavaScript MVC, we were to create the first nine moves in the <a href="http://www.chess.com/opening/eco/E06_Catalan_Opening_Closed_Variation" target="_blank">Catalan Opening</a>
+        move by move, fast-forward to the end, or rewind to the beginning. We practiced test-driven development with Mocha Chai.</p>
+        <p class="links"><a href="https://blacajojo--gui.firebaseapp.com/#/home" target="_blank">visit site</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;  <a href="https://github.com/cmauban/TIY-Chessboard" target="_blank">view code on GitHub</a></p>
+      </div>
+      </article>
+
+    </section> <!-- END PORFOLIO -->
+
+    <section id="contact" class="panel">
+      <h3 class="heading">Contact</h3>
+      <section class="contact">
+        <a href="http://www.twitter.com/cmaubs" target="_blank" class="fa fa-twitter fa-2x">&nbsp;&nbsp;&nbsp;<p>cmaubs</p></a><br>
+        <a href="https://www.linkedin.com/in/camillemauban" target="_blank" class="fa fa-linkedin-square fa-2x">&nbsp;&nbsp;&nbsp;<p>camillemauban</p></a><br>
+        <a href="mailto:camille.mauban@gmail.com" target="_blank" class="fa fa-envelope-o fa-2x">&nbsp;&nbsp;<p>camille.mauban@gmail.com</p></a><br>
+        <a href="https://github.com/cmauban" target="_blank" class="fa fa-github fa-2x">&nbsp;&nbsp;&nbsp;<p>cmauban</p></a><br>
+        <a href="mauban_resume.pdf" target="_blank" class="fa fa-file-pdf-o fa-2x">&nbsp;&nbsp;&nbsp;<p>resume</p></a>
       </section>
-      </section>
+    </section> <!-- END CONTACT -->
+
+    <!-- <section id="blog" class="panel">
+      <h3 class="heading">Blog</h3>
+    </section>  -->
 
 
 
+
+  </section> <!-- END MAIN-CONTENT -->
+
+
+
+  <!-- <footer class="page-footer">
+    <section class="social-media">
+      <a href="http://www.twitter.com/cmaubs" target="_blank" class="fa fa-twitter fa-2x"></a>
+      <a href="https://www.linkedin.com/in/camillemauban" target="_blank" class="fa fa-linkedin-square fa-2x"></a>
+      <a href="camille.mauban@gmail.com" target="_blank" class="fa fa-envelope-o fa-2x"></a>
+      <a href="https://github.com/cmauban" target="_blank" class="fa fa-github fa-2x"></a>
+    </section>
+  </footer> -->
 </main> <!--END PAGE CONTAINER-->
-</div><!--END PAGE WRAP CONTAINER-->
+
 
 
         <!-- bower:js -->

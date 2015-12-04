@@ -1,0 +1,125 @@
+#portfolio {
+  width: 90%;
+  margin: 0 auto;
+  @extend .clearfix;
+
+article {
+  margin-bottom: 40px;
+
+    img {
+      width: 50%;
+      padding-right: 30px;
+      @extend .clearfix;
+    }
+
+    div.title-desc {
+      width: 50%;
+      float: right;
+
+        h2.project-title {
+          font-weight: 300;
+          margin-top: 0;
+          margin-bottom: 10px;
+          font-size: 4.5vh;
+        }
+
+        p.desc {
+          display: block;
+          margin-right: 10px;
+          margin-top: 0;
+          font-weight: 200;
+          font-size: 3vh;
+
+          a[href] {
+            color: #A48DCC;
+            text-decoration: none;
+            font-weight: 300;
+          }
+
+        }
+    }
+
+    p.links {
+      font-weight: 300;
+      font-size: 3vh;
+
+        a[href] {
+          display: inline-block;
+          font-weight: 300;
+          color: #80BFB7;
+
+                &:link {
+                  text-decoration:  none;
+                  color: #80BFB7;
+                }
+
+                &:visited {
+                  color: #80BFB7;
+                }
+
+                &:visited::before {
+                  display: none;
+
+                }
+        }
+    }
+
+
+
+  } // END ARTICLE
+
+} // END portfolio
+
+
+
+// TABLET VIEW
+@media screen and (max-width: 1024px) {
+
+  #portfolio article {
+    margin-bottom: 60px;
+  }
+
+  h2.project-title {
+    font-size: 1em !important;
+  }
+
+  .title-desc p.desc, p.links {
+    font-size: .9em !important;
+  }
+
+} // END TABLET
+
+
+// MOBILE VIEW
+@media screen and (max-width: 766px) {
+
+  #portfolio article {
+
+      img {
+        width: 100%;
+        padding-right: 0 !important;
+      }
+
+      div.title-desc {
+        margin: 0 auto !important;
+        width: 100% !important;
+        float: none !important;
+
+        h2.project-title {
+          margin-top: 20px;
+          font-size: 1em;
+        }
+
+        p.desc {
+          text-align: justify;
+        }
+
+      }
+
+  }
+
+
+
+
+
+} // END MOBILE
