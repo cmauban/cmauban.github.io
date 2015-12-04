@@ -2886,6 +2886,55 @@ main.container {
   width: 100%;
 }
 
+@media screen and (max-width: 766px) {
+  .hamburger.fa-bars {
+    display: block !important;
+  }
+  .nav {
+    display: none !important;
+  }
+  .hamburger-nav {
+    background: #fff;
+    width: 50% !important;
+  }
+  .hamburger-nav li a[href] {
+    text-decoration: none;
+  }
+  .show {
+    display: block !important;
+  }
+  div.intro {
+    padding-top: 62px !important;
+  }
+  div.intro h2.name {
+    font-size: 4em !important;
+    line-height: 1;
+  }
+  div.intro h4.title {
+    font-size: 1.5em !important;
+    margin: 10px 0 10px 0 !important;
+  }
+  div.intro p.about {
+    width: 90% !important;
+    text-align: justify !important;
+  }
+  #contact .contact {
+    margin: 0;
+  }
+  #contact .contact a[href] {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  p.about {
+    width: 70% !important;
+  }
+  #contact .contact {
+    margin-left: 150px;
+  }
+}
+
 #main-header {
   width: 100%;
   text-align: left;
@@ -2976,25 +3025,6 @@ main.container {
 
 .hamburger {
   display: none !important;
-}
-
-@media screen and (max-width: 766px) {
-  .hamburger {
-    display: block !important;
-  }
-  .nav {
-    display: none !important;
-  }
-  .hamburger-nav {
-    background: #fff;
-    width: 50% !important;
-  }
-  .hamburger-nav li a[href] {
-    text-decoration: none;
-  }
-  .show {
-    display: block !important;
-  }
 }
 
 .main-content {
