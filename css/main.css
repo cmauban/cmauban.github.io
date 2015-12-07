@@ -2821,9 +2821,14 @@ textarea {
   #portfolio article div.title-desc h2.project-title {
     margin-top: 20px;
     font-size: 1em;
+    font-weight: 500;
   }
   #portfolio article div.title-desc p.desc {
     text-align: justify;
+    font-weight: 300;
+  }
+  #portfolio article div.title-desc p.links {
+    font-weight: 300;
   }
 }
 
@@ -2922,7 +2927,7 @@ main.container {
     margin: 0 !important;
   }
   #contact .contact a[href] {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 }
 

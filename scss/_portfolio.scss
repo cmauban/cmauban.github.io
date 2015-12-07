@@ -108,10 +108,17 @@ article {
         h2.project-title {
           margin-top: 20px;
           font-size: 1em;
+          font-weight: 500;
+
         }
 
         p.desc {
           text-align: justify;
+          font-weight: 300;
+        }
+
+        p.links {
+          font-weight: 300;
         }
 
       }
