@@ -2919,7 +2919,7 @@ main.container {
     text-align: justify !important;
   }
   #contact .contact {
-    margin: 0 0 0 25px !important;
+    margin: 0 !important;
   }
   #contact .contact a[href] {
     font-size: 1.2em;
