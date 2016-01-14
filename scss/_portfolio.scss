@@ -5,6 +5,11 @@
 
 article {
   margin-bottom: 40px;
+  box-sizing: border-box;
+  display: block;
+  clear: both;
+  content: "";
+  @extend clearfix;
 
     img {
       width: 50%;
@@ -67,6 +72,126 @@ article {
 
 
   } // END ARTICLE
+
+
+// image slide
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  float: left;
+  height: 490px !important;
+
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 430px;
+  height: 300px;
+  background: #fff;
+  text-align: center;
+  line-height: 300px;
+
+    img {
+      width: 100%;
+      height: auto;
+      padding: 0 !important;
+    }
+
+}
+
+a.control_prev, a.control_next,
+a.control_prev2, a.control_next2, {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover,
+a.control_prev2:hover, a.control_next2:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev, a.control_prev2 {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next, a.control_next2 {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+
+
+.sliderTwo {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  float: left;
+  height: 490px !important;
+  width: 430px;
+
+}
+
+.sliderTwo ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  list-style: none;
+}
+
+.sliderTwo ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 430px;
+  height: 300px;
+  background: #fff;
+  text-align: center;
+  line-height: 300px;
+
+    img {
+      width: 100%;
+      height: auto;
+      padding: 0 !important;
+    }
+
+}
+
+
+
+// END image slideer
+
+
+
 
 } // END portfolio
 

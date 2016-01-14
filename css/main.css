@@ -2739,6 +2739,10 @@ textarea {
 
 #portfolio article {
   margin-bottom: 40px;
+  box-sizing: border-box;
+  display: block;
+  clear: both;
+  content: "";
 }
 
 #portfolio article img {
@@ -2794,6 +2798,110 @@ textarea {
 
 #portfolio article p.links a[href]:visited::before {
   display: none;
+}
+
+#portfolio #slider {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  float: left;
+  height: 490px !important;
+}
+
+#portfolio #slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  list-style: none;
+}
+
+#portfolio #slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 430px;
+  height: 300px;
+  background: #fff;
+  text-align: center;
+  line-height: 300px;
+}
+
+#portfolio #slider ul li img {
+  width: 100%;
+  height: auto;
+  padding: 0 !important;
+}
+
+#portfolio a.control_prev, #portfolio a.control_next,
+#portfolio a.control_prev2, #portfolio a.control_next2 {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#portfolio a.control_prev:hover, #portfolio a.control_next:hover,
+#portfolio a.control_prev2:hover, #portfolio a.control_next2:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+#portfolio a.control_prev, #portfolio a.control_prev2 {
+  border-radius: 0 2px 2px 0;
+}
+
+#portfolio a.control_next, #portfolio a.control_next2 {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+#portfolio .sliderTwo {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  float: left;
+  height: 490px !important;
+  width: 430px;
+}
+
+#portfolio .sliderTwo ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  list-style: none;
+}
+
+#portfolio .sliderTwo ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 430px;
+  height: 300px;
+  background: #fff;
+  text-align: center;
+  line-height: 300px;
+}
+
+#portfolio .sliderTwo ul li img {
+  width: 100%;
+  height: auto;
+  padding: 0 !important;
 }
 
 @media screen and (max-width: 1024px) {
