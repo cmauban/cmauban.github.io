@@ -2800,6 +2800,11 @@ textarea {
   display: none;
 }
 
+#portfolio article p.links a[href]:hover {
+  color: #80BFB7;
+  font-weight: 400;
+}
+
 #portfolio #slider {
   position: relative;
   overflow: hidden;
@@ -3079,13 +3084,13 @@ main.container {
   text-decoration: none;
   position: absolute;
   display: block;
-  top: 21px;
+  top: 9px;
   right: 5%;
   z-index: 1000;
 }
 
 #main-header .nav {
-  margin-top: 15px;
+  margin: 8px 0;
   float: right;
   display: inline-block;
   clear: both;
@@ -3101,6 +3106,11 @@ main.container {
   text-transform: uppercase;
 }
 
+#main-header .nav a[href]:hover {
+  color: #A48DCC;
+  font-weight: 400;
+}
+
 #main-header .hamburger-nav {
   float: right;
   box-sizing: border-box;
@@ -3109,7 +3119,7 @@ main.container {
   display: none;
   position: absolute;
   right: 0;
-  top: 64px;
+  top: 42px;
   z-index: 1000;
   background: #000;
 }

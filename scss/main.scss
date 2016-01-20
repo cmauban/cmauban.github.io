@@ -235,13 +235,13 @@ div.intro {
     text-decoration: none;
     position: absolute;
     display: block;
-    top: 21px;
+    top: 9px;
     right: 5%;
     z-index: 1000;
   }
 
   .nav {
-  margin-top: 15px;
+  margin: 8px 0;
   float: right;
   display: inline-block;
   clear: both;
@@ -254,6 +254,12 @@ div.intro {
       text-decoration: none;
       padding-left: 40px;
       text-transform: uppercase;
+
+      &:hover {
+        color: #A48DCC;
+        font-weight: 400;
+      }
+
     }
 }
 
@@ -266,7 +272,7 @@ div.intro {
     display: none;
     position: absolute;
     right: 0;
-    top: 64px;
+    top: 42px;
     z-index: 1000;
     background: #000;
 

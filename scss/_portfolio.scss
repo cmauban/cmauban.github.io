@@ -64,7 +64,11 @@ article {
 
                 &:visited::before {
                   display: none;
+                }
 
+                &:hover {
+                  color: #80BFB7;
+                  font-weight: 400;
                 }
         }
     }
