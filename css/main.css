@@ -2745,6 +2745,13 @@ textarea {
   content: "";
 }
 
+#portfolio article div.box {
+  border: 2px solid #000;
+  width: 40%;
+  padding-right: 30px;
+  margin-bottom: 0;
+}
+
 #portfolio article img {
   width: 50%;
   padding-right: 30px;
@@ -3277,18 +3284,19 @@ h3.heading {
  */
 .clearfix:before,
 #portfolio:before,
+#portfolio article div.box:before,
 #portfolio article img:before,
 #contact:before,
 #main-header:before,
 #main-header .hamburger-nav:before,
-.clearfix:after, #portfolio:after, #portfolio article img:after, #contact:after, #main-header:after, #main-header .hamburger-nav:after {
+.clearfix:after, #portfolio:after, #portfolio article div.box:after, #portfolio article img:after, #contact:after, #main-header:after, #main-header .hamburger-nav:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
 
-.clearfix:after, #portfolio:after, #portfolio article img:after, #contact:after, #main-header:after, #main-header .hamburger-nav:after {
+.clearfix:after, #portfolio:after, #portfolio article div.box:after, #portfolio article img:after, #contact:after, #main-header:after, #main-header .hamburger-nav:after {
   clear: both;
 }
 
